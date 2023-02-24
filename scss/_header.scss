@@ -1,0 +1,25 @@
+header {
+  min-height: 10vh;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  .logo {
+    font-family: sans-serif;
+    color: lightblue;
+  }
+  img {
+    width: 30px;
+    height: 30px;
+  }
+  a {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  nav img {
+    display: none;
+  }
+  .nav-link {
+    display: inline-block;
+  }
+}

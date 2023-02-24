@@ -1,0 +1,75 @@
+header {
+  min-height: 10vh;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+header .logo {
+  font-family: sans-serif;
+  color: lightblue;
+}
+header img {
+  width: 30px;
+  height: 30px;
+}
+header a {
+  display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  nav img {
+    display: none;
+  }
+  .nav-link {
+    display: inline-block;
+  }
+}
+footer {
+  min-height: 10vh;
+  background-color: black;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  display: grid;
+}
+
+main {
+  min-height: 80vh;
+  display: grid;
+  place-items: center;
+}
+
+article {
+  display: grid;
+  place-items: center;
+}
+
+main div {
+  width: 90%;
+  height: 500px;
+  display: grid;
+  place-items: center;
+  background-color: #fed615;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+@media only screen and (min-width: 1000px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
